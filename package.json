@@ -1,0 +1,26 @@
+{
+  "name": "info-box",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "browserify src/js/main.js > src/js/app.js -d",
+    "watch": "watchify src/js/main.js -o src/js/app.js -dv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dneprm/info-box.git"
+  },
+  "author": "dneprm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dneprm/info-box/issues"
+  },
+  "homepage": "https://github.com/dneprm/info-box#readme",
+  "devDependencies": {
+    "browserify": "latest",
+    "watchify": "latest"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
