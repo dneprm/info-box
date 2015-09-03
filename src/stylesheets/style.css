@@ -1,0 +1,158 @@
+html, body {
+    height: 100%;
+}
+html {
+    font-size: 100%; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+}
+
+body{
+    margin: 0 auto;
+    padding: 5%;
+    font-weight:300;
+    font-size:16px;
+    line-height:12px;
+    color: white;
+}
+a {
+    cursor: pointer;
+}
+#app {
+    
+	margin: 0 auto;
+	max-width: 313px;
+    height: 332px;
+    max-height: 100%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 6px 5px 6px  rgba(0,0,0,0.2);
+    -webkit-box-shadow: 6px 5px 6px  rgba(0,0,0,0.2);
+    -moz-box-shadow: 6px 5px 6px  rgba(0,0,0,0.2);
+    color: black;
+}
+.productImg {
+    max-width: 100%;
+    max-height:100%;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+}
+.productHeader {
+    padding-left: 2%;
+    margin: 4% 0;
+}
+.productDescr {
+    padding-left: 3%;
+    font-size: 12px;
+    margin: 3% 0 2% 0;
+}
+.showDetail {
+    display: block;
+    padding-left: 3%;
+    color: #fd7a0d;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.showDetail:hover {
+    color: brown;
+
+}
+.buttonLeft {
+    background: url(../img/button_bg_white_left.png);
+    display: inline-block;
+    float: left;
+    width: 68px;
+    height: 26px;
+    margin: 5% 0 0 2%;
+}
+.buttonLeft:hover {
+    background: url(../img/button_bg_orange_left.png);
+    cursor: pointer;
+}
+
+.buttonLeftArrow {
+    background: url(../img/btn_ic_gray_left.png);
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    margin: 15% 0 0 5%;
+}
+.prev {
+    display: inline-block;
+    float: right;
+    margin: 12% 12% 0 0;
+    font-size: 13px;
+    font-weight: 800;
+    color: grey;
+}
+.buttonLeft:hover .prev {
+    color: white;
+}
+.buttonRight {
+    background: url(../img/button_bg_white_right.png);
+    display: inline-block;
+    width: 68px;
+    height: 26px;
+    margin: 5% 0 0 1%;
+} 
+.buttonRight:hover {
+    background: url(../img/button_bg_orange_right.png);
+    cursor: pointer;
+}
+.buttonRightArrow {
+    background: url(../img/btn_ic_gray_right.png);
+    float: right;
+    width: 12px;
+    height: 10px;
+    margin: 15% 5% 0 0;
+}
+.next {
+    display: inline-block;
+    float: left;
+    margin: 12% 0 0 12%;
+    font-size: 13px;
+    font-weight: 800;
+    color: grey;
+}
+.buttonRight:hover .next {
+    color: white;
+}
+.buttonFind {
+    background: url(../img/button_bg_white_right.png) no-repeat scroll 0 0 / 100% 100%;
+    /*border: 1px solid rgba(208, 202, 202, 0.4);*/
+    display: inline-block;
+    float: right;
+    width: 120px;
+    height: 26px;
+    margin: 5% 1% 0 0;
+} 
+.buttonFind:hover {
+    background: url(../img/button_bg_orange_right.png) no-repeat scroll 0 0 / 100% 100% ;
+    cursor: pointer;
+}
+.buttonFindArrow {
+    background: url(../img/arrowSide.png);
+    float: right;
+    width: 10px;
+    height: 10px;
+    margin: 7% 12% 0 0;
+}
+.find {
+    display: inline-block;
+    float: left;
+    margin: 7% 0 0 5%;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fd7a0d;
+}
+.buttonFind:hover .find {
+    color: white;
+}
+@media screen and (max-width: 350px) {
+    .productHeader {
+        font-size: 17px;
+    }
+}
+
