@@ -23,8 +23,7 @@ a {
 	margin: 0 auto;
 	max-width: 313px;
     min-width: 150px;
-    max-height: 332px;
-    min-height: 313px;
+    min-height: 332px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -32,7 +31,10 @@ a {
     -webkit-box-shadow: 6px 5px 6px  rgba(0,0,0,0.2);
     -moz-box-shadow: 6px 5px 6px  rgba(0,0,0,0.2);
     color: black;
-    overflow: hidden;
+    position: relative;
+}
+#infoBoxWrapper {
+    height: 100%;
 }
 .noProducts {
     text-align: center;
@@ -67,7 +69,7 @@ a {
 }
 .showDetails {
     display: block;
-    margin-bottom: 5px;
+    margin: 5px 0;
     padding-left: 3%;
     color: #fd7a0d;
     font-size: 12px;
@@ -78,7 +80,12 @@ a {
 
 }
 .callToAction {
-    margin-bottom: 5px;
+    width: 100%;
+    margin-top: 5px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
 }
 .buttonLeft {
     background: url(../img/button_bg_white_left.png);
